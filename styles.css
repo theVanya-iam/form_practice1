@@ -2,6 +2,7 @@
 :root{
     font-family: 'Roboto', sans-serif;
     font-family: 'Rubik Pixels', cursive;
+    text-shadow: 1px 0px 10px rgb(160, 7, 7);
     color: rgb(189, 189, 189);
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@ body{
 
 .content{
     background-color: rgb(71, 69, 69);
-    border: 5px solid rgb(54, 53, 53);
+    border: 4mm ridge rgba(96, 16, 11, 0.6);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,8 +43,14 @@ form{
     display: flex;
 }
 
+fieldset{
+    border: 1px solid rgb(44, 10, 10);
+    background-color: rgb(137, 41, 41);
+}
+
 input, select{
     background-color: rgb(51, 50, 50);
+    border: 1px solid rgb(67, 60, 60);
     color: rgb(239, 229, 229);
     display: flex;
     width: 150px;
