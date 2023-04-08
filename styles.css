@@ -2,4 +2,62 @@
 :root{
     font-family: 'Roboto', sans-serif;
     font-family: 'Rubik Pixels', cursive;
+    color: rgb(189, 189, 189);
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./lake_of_fire.jpeg);
+}
+
+.content{
+    background-color: rgb(71, 69, 69);
+    border: 5px solid rgb(54, 53, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    padding: 25px;
+    width: 800px;
+}
+
+h1{
+    justify-self: flex-start;
+}
+
+/* form style */
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_fields{
+    display: flex;
+}
+
+input, select{
+    background-color: rgb(51, 50, 50);
+    color: rgb(239, 229, 229);
+    display: flex;
+    width: 150px;
+    height: 18px;
+    margin: 6px;
+}
+
+/* removes the spin counter on number-type inputs */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button{
+    margin: 20px;
 }
